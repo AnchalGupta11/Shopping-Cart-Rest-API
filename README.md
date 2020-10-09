@@ -5,7 +5,8 @@ This repository contains python files to perform crud operation on a shopping ca
 api_constants is merely used to hide user passwords which is then imported in other two files.
 
 Two files:
-        api_mongo.py containts the python code for creating a rest api and performing crud operations.
+       
+       api_mongo.py containts the python code for creating a rest api and performing crud operations.
         
         mongodbstart.py contains the python code to connect to the database which performs crud operations without calling api.
         
@@ -31,9 +32,9 @@ To call the api you can use postman or httpie
 
 HTTPie is a command line HTTP client. Its goal is to make CLI interaction with web services as human-friendly as possible.
 
-Install HTTPie : pip install --upgrade httpie
+        Install HTTPie : pip install --upgrade httpie
 
-http POST http:/.........../api/db_populate
+        http POST http:/.........../api/db_populate
 
-http GET  http:/.........../api/items
+        http GET  http:/.........../api/items
 
