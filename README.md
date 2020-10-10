@@ -59,6 +59,16 @@ Then to set virtual environment perform following commands:
         env/Scripts/activate
         
 Virtual environment is set now, import all the necessary modules and run the file.
+
+Modules are  
+              pip3 install flask
+
+              pip3 install dnspython
+              
+              pip3 install flask_mongoengine
+              
+              and what is required
+              
 (If you recieve 500 internal error while calling api of api_mongo.py then try to run mongodbstart.py and see whether desired operations are printed or not.)
 
 To call the api you can use postman or httpie
