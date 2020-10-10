@@ -27,6 +27,7 @@ Then to set virtual environment perform following commands:
         env/Scripts/activate
         
 Virtual environment is set now, import all the necessary modules and run the file.
+(If you recieve 500 internal error while calling api of api_mongo.py then try to run mongodbstart.py and see whether desired operations are printed or not.)
 
 To call the api you can use postman or httpie
 
@@ -37,4 +38,13 @@ HTTPie is a command line HTTP client. Its goal is to make CLI interaction with w
         http POST http:/.........../api/db_populate
 
         http GET  http:/.........../api/items
+      
+While working on POSTMAN you have to make sure what request you use with the desired api:
 
+[POST] http://127.0.0.1.5000/api/db_populate                       #Creating a cart
+
+[GET,POST]   http://127.0.0.1:5000/api/itmes                       # to get the list of all items using Get request and POST to insert you can use post with echo
+
+[GET,PUT,DELETE]  http://127.0.0.1:5000/api/items/<item_id>        #use GET to get the desired item_id item
+                                                                   #use PUT to update the desired item
+                                                                   #use DELETE to delete the desired item
