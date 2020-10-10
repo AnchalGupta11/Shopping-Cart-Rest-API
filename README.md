@@ -45,6 +45,8 @@ While working on POSTMAN you have to make sure what request you use with the des
 
 [GET,POST]   http://127.0.0.1:5000/api/itmes                       # to get the list of all items using Get request and POST to insert you can use post with echo
 
+              echo '{"item_id":"","name":"","seller":"","price":""}'|http://127.0.0.1:5000/api/item
+
 [GET,PUT,DELETE]  http://127.0.0.1:5000/api/items/<item_id>        #use GET to get the desired item_id item
                                                                    #use PUT to update the desired item
                                                                    #use DELETE to delete the desired item
