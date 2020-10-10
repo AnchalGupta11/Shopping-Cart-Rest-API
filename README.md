@@ -14,6 +14,36 @@ Database name =API
 
 Collection Name= item
 
+Sample:       [
+    {
+        "_id": {
+            "$oid": "5f8129737f764cb4702e9b9b"
+        },
+        "item_id": 1,
+        "name": "Football",
+        "price": 100,
+        "seller": "Gopal Sports Store"
+    },
+    {
+        "_id": {
+            "$oid": "5f8129767f764cb4702e9b9d"
+        },
+        "item_id": 1,
+        "name": "Football",
+        "price": 100,
+        "seller": "Gopal Sports Store"
+    },
+    {
+        "_id": {
+            "$oid": "5f8129777f764cb4702e9b9e"
+        },
+        "item_id": 2,
+        "name": "Utensil",
+        "price": 760,
+        "seller": "Harbhajan Gift Shop"
+    }
+]
+
 To run these file open any editor visual studio code, sublime or any of your choice. Since I have made use of flask you need to create an virtual environment.
 
 Clone the files into one folder.
